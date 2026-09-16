@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div>
+        <form name="fp">
+            <select name="ph">
+                <option value="Lake.jpg">Lake</option>
+                <option value="Forest.jpg">Forest</option>
+                <option value="Bridge.jpg">Bridge</option>
+                <option value="River.jpg">River</option>
+                <option value="Flowers.jpg">Flowers</option>
+            </select>
+        </form>
+    </div>
+    <div>
+        <img 
+        id="displayImage"
+        src="" 
+        style="max-width: 80%; height: auto; margin-top: 20px;">
+    </div>
+
+    <div>
+        <form name="cal">
+            <select name="ang">
+                <option value="sin">Sin</option>
+                <option value="cos">Cos</option>
+                <option value="tan">Tan</option>
+            </select>
+            <div>Enter Angel: <input name="angel" type="text" placeholder="angel"></div>
+            <div><button name="calculate" >calculate</button></div>
+            <div id="displayangel"></div>
+        </form>
+    </div>
+    <br><br>
+    
+    <div class="f">
+        <div class="h2"><h2>Registration Form</h2></div>
+        <form id="survey" onsubmit="submitForm(event)">
+            <div class="in">Full Name: <input type="text" class="fullname" placeholder="Full Name"></div>
+            <div class="in">Age: <input type="number" class="age" placeholder="Your Age"></div>
+            <div class="in">Date of Birth: <input type="date" class="birthDate" placeholder="Date of Birth"></div>
+            <div class="in">Nationaity: <input type="text" class="nationality" placeholder="Your Nationality"></div>
+            <div class="in">Faculty: <input type="text" class="faculty" placeholder="Your Faculty"></div>
+            <div class="in">
+                <h3>Gender</h3>
+                <select class="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="in">
+                <h3>Your Native Language</h3>
+                <div><input class="nativelanguage" type="radio" value="Amazigh" name="nativelanguage"> Amazigh</div>
+                <div><input class="nativelanguage" type="radio" value="English" name="nativelanguage"> English</div>
+                <div><input class="nativelanguage" type="radio" value="French" name="nativelanguage"> French</div>
+                <div><input class="nativelanguage" type="radio" value="Russian" name="nativelanguage"> Russian</div>
+                <div>Other: <input class="nativelanguage" type="text" placeholder="Enter Other"></div>
+            </div>
+            <div class="in">
+                <h3>Your Hobby</h3>
+                <div><input class="hobby" type="checkbox" value="Travelling"> Travelling</div>
+                <div><input class="hobby" type="checkbox" value="Swimming"> Swimming</div>
+                <div><input class="hobby" type="checkbox" value="Calisthenics"> Calisthenics</div>
+                <div>Other: <input class="hobby" type="text" placeholder="Enter Other"></div>
+            </div>
+            <div>
+                <h3>Your Favorite Color:</h3>
+                <input class="favoritecolor" type="color">
+            </div>
+            <div class="in">
+                <button class="sub" type="submit">Submit</button>
+            </div>
+        </form>
+        <div class="in" id="output"></div>
+    </div>
+    <div id="output"></div>
+    <script src="task.js"></script>
+</body>
+</html>

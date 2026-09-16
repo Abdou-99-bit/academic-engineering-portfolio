@@ -1,0 +1,102 @@
+.f{
+    text-align: center;
+}
+.h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: gray(216, 43, 92);
+    color: dark;
+}
+
+h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: Blue(216, 43, 92);
+    color: dark;
+}
+.in{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: dark;
+    font-size: 20px;
+}
+.fullname{
+    margin-left: 5%;
+    width: 49%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: Blue(177, 11, 58);
+    color: dark;
+}
+.age{
+    margin-left: 8%;
+    width: 49%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: Blue(177, 11, 58);
+    color: dark;
+}
+.birthDate{
+    margin-left: 3%;
+    width: 49%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: Blue(177, 11, 58);
+    color: dark;
+}
+.nationality{
+    margin-left: 3%;
+    width: 49%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: Blue(177, 11, 58);
+    color: dark;
+}
+.faculty{
+    margin-left: 6%;
+    width: 49%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: Blue(177, 11, 58);
+    color: dark;
+};
+
+.gender{
+    width: 50%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: Blue(177, 11, 58);
+    color: dark;
+}
+
+.nativelanguage{
+    margin: 5px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: Blue(177, 11, 58);
+    color: dark;
+}
+
+.hobby{
+    margin: 5px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: Blue(177, 11, 58);
+    color: dark;
+}
+
+.favoritecolor{
+    width: 25%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(122, 11, 58);
+    color: dark;
+}
+
+.sub{
+    width: 25%;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(11, 177, 30);
+    color: dark;
+}

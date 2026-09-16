@@ -1,0 +1,71 @@
+.form_valid {
+  border: 2px solid green;
+}
+
+.form_invalid {
+  border: 2px solid red;
+}
+
+.input_error {
+  border: 1px solid orange;
+  background-color: #ffe5e5;
+}
+
+.form_valid::after {
+  content: "✅ The form does not contain errors";
+  display: block;
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+}
+
+.form_invalid::after {
+  content: "❌ The form contains errors";
+  display: block;
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+}
+
+form {
+  max-width: 400px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border: none;
+  background: #0077ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #005fcc;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation Lab</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <form id="profile">
+    <label>
+      Name:
+      <input 
+        type="text" 
+        name="name" 
+        placeholder="Your name"
+        data-required 
+        data-validator="letters"
+      />
+    </label><br />
+
+    <label>
+      Age:
+      <input 
+        type="text" 
+        name="age" 
+        placeholder="Your age"
+        data-validator="number"
+        data-validator-min="0"
+        data-validator-max="120"
+      />
+    </label><br />
+
+    <label>
+      Email:
+      <input 
+        type="text" 
+        name="email" 
+        placeholder="example@mail.com"
+        data-required
+        data-validator="regexp"
+        data-validator-pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+      />
+    </label><br />
+
+    <label>
+      Phone:
+      <input 
+        type="text" 
+        name="phone" 
+        placeholder="+7XXXXXXXXXX"
+        data-required 
+        data-validator="regexp"
+        data-validator-pattern="^\\+7\\d{10}$"
+      />
+    </label><br />
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="task.js"></script>
+  <script>
+    validateForm({
+      formId: 'profile',
+      formValidClass: 'form_valid',
+      formInvalidClass: 'form_invalid',
+      inputErrorClass: 'input_error'
+    });
+  </script>
+</body>
+</html>
