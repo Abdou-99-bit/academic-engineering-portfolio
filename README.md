@@ -26,7 +26,7 @@ Welcome to my central repository for university coursework, programming challeng
 * **Key Components:**
   * `.sql` schema scripts outlining data tables, constraints relationships, and index optimizations.
 
-### ☕ 5. [Algorithmic Computation & Numerical Matrix Evaluations]
+### ☕ 5. [Algorithmic Computation & Numerical Matrix Evaluations](./05-algorithmic-computation-&-numerical-matrix-evaluations/)
 * **Core Focus:** Desktop applications and scientific numerical analysis modules.
 * **Key Components:**
   * **Java Calculator:** A custom graphical user interface (GUI) calculating multi-operator equations.
