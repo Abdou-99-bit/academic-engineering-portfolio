@@ -26,7 +26,7 @@ Welcome to my central repository for university coursework, programming challeng
 * **Key Components:**
   * `.sql` schema scripts outlining data tables, constraints relationships, and index optimizations.
 
-### ☕ 5. [Java & Octave Applications](./05-octave-and-java-apps/)
+### ☕ 5. [Algorithmic Computation & Numerical Matrix Evaluations]
 * **Core Focus:** Desktop applications and scientific numerical analysis modules.
 * **Key Components:**
   * **Java Calculator:** A custom graphical user interface (GUI) calculating multi-operator equations.
